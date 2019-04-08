@@ -22,17 +22,55 @@ body {
     display:none; 
 /*display none removes the item from view on a webpage but doesnt delete the code*/
 
-#div1{
-    border:10px rebeccapurple;
+#Websitename {
+    background-color: #FF8C00;
+    color: #4484ce;
+    text-align: right;
 }
 
-#div2{
-    border: 4px black;
-    margin: 20px;
-    text align: 20%;
-/*percentage of webpage*/
+#Wholepage {
+    background-color: #f9cf00;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.span1{
-    border:4px green;
+#Header {
+    background-color:#FF8C00;
+    color: #4484ce;
+    text-align: center;
+    padding: 10px;
+}
+#content{
+    background-color: aqua;
+
+}
+#content.table {
+    background-color: #FF8C00;
+
+}
+body {
+    background-color: #FF7F50;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#image1{
+    width: 300px;
+    height:200px;
+    align-content: right;
+}
+#footer {
+    display: none
+}
+
+.buttons {
+    backgroundcolor: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+#textbox {
+    height: 40px;
+    width: 150px;
+    font-size: 14pt;
 }
