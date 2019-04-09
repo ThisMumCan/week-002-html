@@ -1,91 +1,97 @@
-/*h2 {
-    color: blueviolet;
-    font-family: fantasy;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: brown
-}
-
-#heading {
-    color: aqua;
-}
-
-.item-row{
-    color: blue;
-}
-
-#bottom-item-row{
-    color: yellowgreen;
-    text-decoration:line-through;
-    display:none; 
-/*display none removes the item from view on a webpage but doesnt delete the code*/
-
-#Websitename {
-    background-color: #FF8C00;
-    color: #4484ce;
-    text-align: right;
-}
 .header img {
-    float: left;
-    width: 100px;
-    height: 100px;
+    float: right;
+    width: 300px;
+    height: 200px;
     background: #FF7F50;
-  }
-  
-  .header h1 {
-    position: relative;
+    margin: 0;
+}
+
+.header h1 {
+    text-align: right;
     top: 18px;
     left: 10px;
-  }
-
-#Wholepage {
-    background-color: #f9cf00;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#PageTitle {
-    background-color:#FF8C00;
-    color: #4484ce;
-    text-align: center;
+    color: black;
+    font-family: 'UniqueRegular', Arial, sans-serif;
+    background-color: #FF7f50;
+    margin: 0;
     padding: 10px;
 }
-#navigation{
-    background: #FF7F50;
-}
-#content{
-    background-color: aqua;
 
+h2 {
+    text-align: center;
+    color: black;
+    padding: 10px;
 }
-#content.table {
-    background-color: #FF8C00;
-    font-size: 14cm;
+
+#Wholepage {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
 }
+
 body {
-    background-color: #FF7F50;
+    background-color: white;
     font-family: Helvetica, Arial, sans-serif;
 }
-#image1{
-    width: 300px;
-    height:200px;
-    align-items: right;
+
+#navigation {
+    background: white;
+    Width: 180px;
+    font-family: Helvetica, Arial, sans-serif;
+    float: left;
 }
+
+#navigation.currentpage {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#navigation ul {
+    list-style-type: none;
+    padding: 5px 0px;
+    line-height: 1cm;
+}
+
+#content {
+    background-color: white;
+    border: black;
+    width: 600px;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 10px;
+    float: right;
+}
+
 #footer {
-    display: none
+    clear: both;
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+    text-align: left;
+    display: none;
 }
 
 .buttons {
-    background-color:#4484ce;
-    color:black;
+    background-color: #4484ce;
+    color: black;
     width: 150px;
     height: 40px;
 }
 
 #textbox {
-    height: 40px;
-    width: 150px;
+    height: 35px;
+    width: 200px;
     font-size: 14pt;
+    cursor: text;
+}
+
+#PageTitle, Content, navigation, table, footer {
+    border: #4484ce;
+    border-style: dotted;
+    border-width: 4px;
 }
