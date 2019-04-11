@@ -5,7 +5,6 @@
 Adds a border around the elements/properties
 */
 
-
 .header img {
     float: right;
     width: 200px;
@@ -69,7 +68,7 @@ body {
     border-width: 4px;
 }
 
-#navigation.currentpage {
+.currentpage {
     font-weight: bold;
 }
 
@@ -141,14 +140,8 @@ table, td, th {
     padding: 10px;
 }
 
-#Content, footer {
+/*#Content, footer {
     border: #4484ce;
     border-style: dotted;
     border-width: 4px;
-}
-
-@media only screen and (max-width:600px) {
-    h2 {
-        color:yellowgreen;
-    }
-}
+}*/
