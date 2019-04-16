@@ -1,4 +1,4 @@
-/*
+*
 * {
     border: 1px solid red;
 }
@@ -35,14 +35,6 @@ h2, h3 {
 #input {
     padding: 10px;
 }
-/*#Wholepage {
-    background-color: blue;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1900px;
-}
-removed div whole page to sort alignment. Worked same as body 
-*/
 
 body {
     height: 100vh;
@@ -55,48 +47,19 @@ body {
     padding: 10px;
 }
 
-#navigation {
-    background: #FF7F50;
-    Width: 300px;
-    font-family: Helvetica, Arial, sans-serif;
-    margin: left;
-    padding: 10px, 10px, 40px, 10px;
-
-}
-
 .currentpage {
     font-weight: bold;
 }
 
-a {
-    text-decoration: none;
+#table{
     color: black;
     font-family: Helvetica, Arial, sans-serif;
+    padding: 100px;
+
 }
 
-/* a = bullet point text
-*/
 
-#navigation ul {
-    list-style-type: none;
-    padding: 5px 0px;
-    line-height: 1cm;
-}
 
-#table {
-    background-color: #d9d9d9;
-    padding: 10px;
-    margin: auto;
-    border-collapse: collapse
-}
-
-th {
-    background-color: lightblue;
-}
-
-table, td, th {
-    border: 2px solid #f9cf00;
-}
 
 #content {
     background-color: #d9d9d9;
@@ -115,22 +78,6 @@ table, td, th {
     display: none;
 }
 
-.buttons {
-    background-color: #4484ce;
-    color: black;
-    width: 150px;
-    height: 40px;
-    border-radius: 25px;
-}
-
-.addbutton {
-    background-color: #4484ce;
-    color: black;
-    width: 100px;
-    height: 36px;
-    border-radius: 25px;
-
-}
 
 #textbox {
     height: 35px;
@@ -140,19 +87,6 @@ table, td, th {
     padding: 10px;
 }
 
-/*#Content, footer {
-    border: #4484ce;
-    border-style: dotted;
-    border-width: 4px;
-}*/
 
-/*<header class="navbar navbar-light">
-  <button class="navbar-toggler sidebar-toggler" type="button" data-toggle="sidebar-show">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-</header>
-makes the navigation bar turn into dropdown icon
-https://coreui.io/docs/components/sidebar/
 
-*/
 

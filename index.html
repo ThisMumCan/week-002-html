@@ -6,6 +6,10 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/unique" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
@@ -14,82 +18,89 @@
     <div class="container">
         <div class=“row”>
             <div class="header col-sm-12">
-                <img id="Image1" src="goldfish.jpg" alt="Goldfish">
                 <h1 id="Websitename">Remember All</h1>
-                <nav class="navbar navbar-inverse navbar-fixed-top">
-                    <div class="container-fluid">
-                    </div>
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#"><button class="btn btn-danger navbar-btn">Login</button></li>
-                    </ul>
-                    <form class="navbar-form navbar-left" action="/action_page.php">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search"><span
-                                class="glyphicon glyphicon-search"></span>
-                            <button type="submit" class="btn btn-default">Submit</button>
-
-                </nav>
             </div>
-        </div>
-        <div class=“row”>
-            <div id="PageTitle col-sm-4">
-                <h2>My Weekly Shopping List</h2>
+            <div class="header image col-sm-3">
+                <img id="Image1" src="goldfish.jpg" alt="Goldfish">
             </div>
             <div class=“row”>
-                <div id="content col-sm-4">
-                    <div id="sidebar">
-                        <nav class="sidebar-nav">
-                            <ul class="nav">
-                                <li class="nav-title">
-                                    <h3>My Lists:</h3>
-                                </li>
-                                <li class="nav-item currentpage"><a class="nav-link" href="">My Weekly Shopping List</a>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="">Unbought Shopping</a>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="">Today's Tasks</a>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="">Chores List</a>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="">Recipe Ingredients</a>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="">Reading list</a>
-                                </li>
-                            </ul>
+                <button class="button col-sm-3">Sign up</button>
+                <button class="button col-sm-3">Login</button>
+            </div>
+        </div>
+        
+        <div class="row">
+                <div class="col-sm-3">
+                <input type="text" class="form-control" placeholder="Search"><span class="glyphicon glyphicon-search></span>
+        </div>
+        <div class ="row">
+            <div class ="PageTitle col-sm-4">
+                        <h2>My Weekly Shopping List</h2>
+                </div>
+                <div class=“row”>
+                    <div id="content-col-sm-4">
+                        <div id="sidebar">
+                            <nav class="sidebar-nav">
+                                <ul class="nav">
+                                    <li class="nav-title">
+                                        <h3>My Lists:</h3>
+                                    </li>
+                                    <li class="nav-item currentpage"><a class="nav-link" href="">My Weekly
+                                            Shopping List</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="">Unbought Shopping</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="">Today's Tasks</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="">Chores List</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="">Recipe Ingredients</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="">Reading list</a>
+                                    </li>
+                                </ul>
 
+                        </div>
                     </div>
-                </div>
-                <div id=input>
+                    <div class="input, col-md-6">
 
-                    <input id="textbox" type=text placeholder="Add Item to the list"> <button class=Addbutton>Add
-                        Item</button><span class="glyphicon glyphicon-plus"></span>
+                        <input id="textbox" type=text placeholder="Add Item to the list "><span
+                            class="glyphicon glyphicon-plus"></span>
+                    </div>
+                    <div class="numberofitems col-md-6">
+                        <p>Things to Buy:<span class="badge">3</span></p>
+                    </div>
+                    <div class="table">
 
-                    <p>Things to Buy:<span class="badge">3</span></p>
-                </div>
-                <div>
-                    <ul class="shopping-list col-md-12">
-                        <li class="list-group-item">Crisps
-                            <div class="col-md-1">
+                        <div class="rows col-md-12">
+                            <p>Crisps
                                 <span class="glyphicon glyphicon-thumbs-up"></span>
                                 <span class="glyphicon glyphicon-thumbs-down"></span>
                                 <span class="glyphicon glyphicon-pencil"></span>
-                                <span class="glyphicon glyphicon-trash"></span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">Cakes </li>
-                        <li class="list-group-item">Biscuits</li>
-                    </ul>
+                                <span class="glyphicon glyphicon-trash"></span></p>
+                        </div>
+                        <div class="rows col-md-12">
+                            <p>Cakes
+                                <span class="glyphicon glyphicon-thumbs-up"></span>
+                                <span class="glyphicon glyphicon-thumbs-down"></span>
+                                <span class="glyphicon glyphicon-pencil"></span>
+                                <span class="glyphicon glyphicon-trash"></span></p>
+                        </div>
+                        <div class="rows col-md-12">
+                            <p>Biscuits
+                                <span class="glyphicon glyphicon-thumbs-up"></span>
+                                <span class="glyphicon glyphicon-thumbs-down"></span>
+                                <span class="glyphicon glyphicon-pencil"></span>
+                                <span class="glyphicon glyphicon-trash"></span></p>
+                        </div>
+                    </div>
+
+
+                    <div id="footer">
+                        <p>Not sure if I need a footer ATM</p>
+                    </div>
+
                 </div>
-
-
-
-                <div id="footer">
-                    <p>Not sure if I need a footer ATM</p>
-                </div>
-
-            </div>
 </body>
 
 </html>
