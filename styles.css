@@ -1,7 +1,9 @@
-*
-* {
+/*
+ {
     border: 1px solid red;
 }
+*/
+
 #Websitename {
     text-align: right;
     top: 18px;
@@ -31,7 +33,7 @@
     padding: 10px;
 }
 
-h2, h3 {
+h2 {
     font-family: 'UniqueRegular', Arial, sans-serif;
     background-color: #FF7F50;
     text-align: center;
@@ -57,21 +59,25 @@ body {
     width: 1000px;
     font-family: Helvetica, Arial, sans-serif;
     padding: 10px;
-    margin: auto;
-    
+       
 }
 
-
+.icons{
+    border: 1px solid black;
+    justify-content: flex-end;
+}
+.item{
+    border: 1px solid black;
+}
 #textbox {
     height: 35px;
     width: 200px;
     font-size: 14pt;
     cursor: text;
-    padding: 10px;
 }
 
 .glyphicon.glyphicon-plus{
-    font-size: 24pt;
+    font-size: 14pt;
 }
 
 
