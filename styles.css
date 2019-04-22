@@ -39,6 +39,16 @@ h2 {
     text-align: center;
     padding: 10px;
 }
+#textbox {
+    height: 35px;
+    width: 200px;
+    font-size: 14pt;
+    cursor: text;
+}
+
+.glyphicon.glyphicon-plus{
+    font-size: 14pt;
+}
 
 body {
     height: 100vh;
@@ -63,22 +73,9 @@ body {
 }
 
 .icons{
-    border: 1px solid black;
     justify-content: flex-end;
 }
-.item{
-    border: 1px solid black;
-}
-#textbox {
-    height: 35px;
-    width: 200px;
-    font-size: 14pt;
-    cursor: text;
-}
 
-.glyphicon.glyphicon-plus{
-    font-size: 14pt;
-}
 
 
 
